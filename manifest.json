@@ -1,0 +1,22 @@
+{
+  "name": "ComposeKey",
+  "version": "1.3",
+  "manifest_version": 2,
+  "description": "Compose Key for Chrome OS",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Compose Key Comprehensive",
+      "type": "ime",
+      "id": "compose_key",
+      "description": "Adds a more comprehensive compose key (RightAlt) functionality to Chrome OS",
+      "language": "en-US",
+      "layouts": ["us"]
+    }
+  ]
+}
